@@ -1,0 +1,80 @@
+* {
+    font-family: "Roboto", sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(./media/img/background.jpg);
+    background-repeat: no-repeat;
+    background-size:contain ;
+} 
+.membership_header {
+    font-size: 48px;
+    text-align: center;
+    margin-bottom: 0;
+    color: #fff;
+}
+
+.membership_explanation {
+    text-align: center;
+    color: #fff;
+    margin-bottom: 50px;
+}
+
+.options_Container {
+    margin: 0 auto;
+    padding: 0;
+    list-style-type: none;
+    width: 1000px;
+}
+
+.option_model {
+    background-color: #fff;
+    margin-right: 40px;
+    padding-bottom: 30px;
+    width: 300px;
+    display: inline-block;
+    border: 5px solid #e9deba;
+    border-radius: 30px;
+}
+
+.option_model:last-child {
+    margin-right: 0;
+}
+
+.option_type{
+     font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+    padding: 25px 0;
+    margin: 0 auto;
+}
+
+.optionType_Container {
+    list-style-type: none;
+    margin: 40px 0;
+    padding: 0;
+}
+
+.optionType_Container p {
+    font-weight: 300;
+    font-size: 14px;
+    text-align: center;
+}
+
+.IFR_Btn {
+    display: block;
+    width: 140px;
+    padding:10px 11px;
+    font-size: 14px;
+    margin: 0 auto;
+    color: #000;
+    text-decoration: none; 
+    font-weight: bold;
+    border: 3px solid #e9deba;
+    border-radius: 30px;
+}
+
+#learn_moreBtn {
+    padding:10px 25px;
+}
